@@ -963,8 +963,7 @@ int main()
 
 	printf("Jump to Kernel\n\r");
 
-	//GoToJumpAddress(0x20008000, MACH_TYPE);
-	GoToJumpAddress(0x20008000, 3129);
+	GoToJumpAddress(0x20008000, MACH_TYPE);
 
 	led_error(FLASH_WRITE_ERROR);
 	return 0;
